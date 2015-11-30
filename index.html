@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>photo</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
+
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#photo').lazyload();
+        });
+    </script>
+
+    <!--<script src="js/jquery.slabtext.min.js"></script>
+    <script type="text/javascript">
+    function slabTextHeadlines() {
+	$("#a").slabText({"viewportBreakpoint":380});
+};
+$(function(){
+	setTimeout(slabTextHeadlines, 100);//1000で1秒後に反映します。
+});
+    </script>-->
 </head>
 
 
 <body>
-   
-   <div id="a">
-          <h1>photo</h1>
-           <p>text</p>
-           <ul>
-            <li><a href="">Twitter</a></li>
-            <li><a href="">instaglam</a></li>
-            <li><a href="https://www.facebook.com/fuukayo" >facebook</a></li>
+
+    <div id="a">
+        <h1>photo</h1>
+        <ul>
+            <li><a href="https://twitter.com/fy1125">Twitter</a></li>
+            <li><a href="https://www.instagram.com/fu_1125/">instaglam</a></li>
+            <li><a href="https://www.facebook.com/fuukayo">facebook</a></li>
         </ul>
-       </div>
-       
+    </div>
+
     <div id="photo">
-       
+
         <div class="one">
             <img src="./photo/1.png" alt="">
             <p>text</p>
         </div>
         <div class="one">
-            <img src="./photo/ajisai.png" alt="">
+            <img src="./photo/hanabi.png" alt="">
             <p>text</p>
         </div>
         <div class="one">
@@ -42,18 +61,55 @@
             <p>text</p>
         </div>
         <div class="one">
-            <img src="./photo/hanabi.png" alt="">
+            <img src="./photo/kyouto2.png" alt="">
             <p>text</p>
         </div>
-        
+
         <div class="two">
             <img src="./photo/kimiuso.jpg" alt="">
             <p>text</p>
         </div>
-        
+
         <div class="one">
-        <img src="./photo/ema.png" alt="">
-        <p>text</p>
+            <img src="./photo/ema.png" alt="">
+            <p>text</p>
+        </div>
+        <div class="two">
+            <img src="./photo/shibuya.png" alt="">
+            <p>text</p>
+        </div>
+        <div class="one">
+            <img src="./photo/osora.png" alt="">
+            <p>text</p>
+        </div>
+        <div class="two">
+            <img src="./photo/sakusakura.JPG" alt="">
+            <p>text</p>
+        </div>
+        <div class="one">
+            <img src="./photo/yamada.jpg" alt="">
+            <p>text</p>
+        </div>
+        <div class="two">
+            <img src="./photo/sl.png" alt="">
+            <p>text
+                <br>aaaa</p>
+        </div>
+        <div class="one">
+            <img src="./photo/pig.png" alt="">
+            <p>text</p>
+        </div>
+        <div class="one">
+            <img src="./photo/yuzu.JPG" alt="">
+            <p>text</p>
+        </div>
+        <div class="one">
+            <img src="./photo/yokohama.png" alt="">
+            <p>text</p>
+        </div>
+        <div class="two">
+            <img src="./photo/remi.jpg" alt="">
+            <p>text</p>
         </div>
     </div>
 </body>

@@ -1,4 +1,4 @@
-body{
+body {
     width: 100%;
     margin: 0;
     background-image: url(./photo/bg4.jpg);
@@ -9,44 +9,78 @@ body{
     font-family: 'Forum', cursive;
 }
 
-#a{
+
+/*.slabtexted .slabtext{
+    display:-moz-inline-box;
+    display:inline-block;
+    white-space:nowrap;
+}
+
+.slabtextinactive .slabtext {
+    display: inline;
+    white-space: normal;
+    font-size: 1em !important;
+    letter-spacing: inherit !important;
+    word-spacing: inherit !important;
+    *letter-spacing: 0 !important;
+    *word-spacing: 0 !important;
+}
+
+.slabtextdone .slabtext {
+    display: block;
+    line-height: 0.9;
+}*/
+
+#a {
     width: 10%;
-    background-color: #dde4e5;
+    background-color: #dee7e8;
     margin: 40px;
+    margin-right: 45px;
     padding: 10px;
     padding-bottom: 50px;
     float: left;
     position: fixed;
+    opacity: 0.9;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-
-a{
+a {
     text-decoration: none;
+    text-align: center;
+    line-height: 2.0em;
     color: #000;
+    display: table-cell;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
 }
 
-a:hover{
-    color: #b1b1b1;
+a:hover {
+    color: #c4c4c4;
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-#photo{
+#photo {
     margin-left: 20%;
 }
 
-img{
+img {
     width: 100%;
 }
 
-.one{
-    background: #dde4e5;
+.one {
+    background: #dee7e8;
     width: 30%;
     margin: 20px;
     padding: 20px;
@@ -56,8 +90,8 @@ img{
     opacity: 0.9;
 }
 
-.two{
-    background: #dde4e5;
+.two {
+    background: #dee7e8;
     width: 30%;
     margin: 20px;
     padding: 20px;
@@ -66,4 +100,14 @@ img{
     margin-right: 110px;
     opacity: 0.9;
     float: right;
+}
+
+.three {
+    background: #dde4e5;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    opacity: 0.9;
 }

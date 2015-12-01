@@ -34,10 +34,10 @@ body {
 #a {
     width: 10%;
     background-color: #dee7e8;
-    margin: 40px;
-    margin-right: 45px;
-    padding: 10px;
-    padding-bottom: 50px;
+    margin: 3%;
+    margin-right: 4%;
+    padding: 1.5%;
+    padding-bottom: 3%;
     float: left;
     position: fixed;
     opacity: 0.9;
@@ -47,10 +47,16 @@ h1 {
     text-align: center;
 }
 
+.link {
+    margin: 0 auto;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
 a {
     text-decoration: none;
     text-align: center;
-    line-height: 2.0em;
+    line-height: 1.5em;
     color: #000;
     display: table-cell;
     -webkit-transition: all 1.0s ease;
@@ -67,10 +73,6 @@ a:hover {
     -ms-transform: rotateY(360deg);
 }
 
-li {
-    list-style-type: none;
-}
-
 #photo {
     margin-left: 20%;
 }
@@ -82,10 +84,10 @@ img {
 .one {
     background: #dee7e8;
     width: 30%;
-    margin: 20px;
-    padding: 20px;
-    padding-bottom: 50px;
-    margin-left: 100px;
+    margin: 5%;
+    padding: 2%;
+    padding-bottom: 5%;
+    margin-left: 10%;
     float: left;
     opacity: 0.9;
 }
@@ -93,21 +95,33 @@ img {
 .two {
     background: #dee7e8;
     width: 30%;
-    margin: 20px;
-    padding: 20px;
-    padding-bottom: 50px;
-    padding-top: 10px;
-    margin-right: 110px;
+    margin: 5%;
+    padding: 2%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    margin-right: 5%;
     opacity: 0.9;
     float: right;
 }
 
-.three {
-    background: #dde4e5;
-    width: 30%;
-    margin: 20px;
-    padding: 20px;
-    padding-bottom: 50px;
-    margin-left: 100px;
-    opacity: 0.9;
+#b {
+    width: 50px;
+    height: 50px;
+    right: 3%;
+    bottom: 3%;
+    transition: 0.3s;
+    text-decoration: none;
+    position: fixed;
+    margin-left: auto;
+    font-size: 40px;
+}
+
+.c {
+    top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+    width: 50px;
+    height: 50px;
 }

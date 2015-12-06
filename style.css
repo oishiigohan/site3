@@ -1,7 +1,7 @@
 body {
     width: 100%;
     margin: 0;
-    background-image: url(./photo/bg0.jpeg);
+    background-image: url(./photo/bg000.jpeg);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ body {
 
 #a {
     width: 10%;
-    background-color: #dee7e8;
+    background-color: #d8e5e3;
     margin: 3%;
     margin-right: 4%;
     padding: 1.5%;
@@ -82,7 +82,7 @@ img {
 }
 
 .one {
-    background: #dee7e8/*#c6d4d6*/;
+    background: #d8e5e3/*#dee7e8*//*#c6d4d6*/;
     width: 30%;
     margin: 5%;
     padding: 2%;
@@ -93,7 +93,7 @@ img {
 }
 
 .two {
-    background: #dee7e8;
+    background: #d8e5e3;
     width: 30%;
     margin: 5%;
     padding: 2%;

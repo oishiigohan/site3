@@ -1,7 +1,7 @@
-body{
+body {
     width: 100%;
     margin: 0;
-    background-image: url(./photo/bg4.jpg);
+    background-image: url(./photo/bg00.jpeg);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -9,61 +9,119 @@ body{
     font-family: 'Forum', cursive;
 }
 
-#a{
-    width: 10%;
-    background-color: #dde4e5;
-    margin: 40px;
-    padding: 10px;
-    padding-bottom: 50px;
-    float: left;
-    position: fixed;
+
+/*.slabtexted .slabtext{
+    display:-moz-inline-box;
+    display:inline-block;
+    white-space:nowrap;
 }
 
-h1{
+.slabtextinactive .slabtext {
+    display: inline;
+    white-space: normal;
+    font-size: 1em !important;
+    letter-spacing: inherit !important;
+    word-spacing: inherit !important;
+    *letter-spacing: 0 !important;
+    *word-spacing: 0 !important;
+}
+
+.slabtextdone .slabtext {
+    display: block;
+    line-height: 0.9;
+}*/
+
+#a {
+    width: 10%;
+    background-color: #dee7e8;
+    margin: 3%;
+    margin-right: 4%;
+    padding: 1.5%;
+    padding-bottom: 3%;
+    float: left;
+    position: fixed;
+    opacity: 0.9;
+}
+
+h1 {
     text-align: center;
 }
 
+.link {
+    margin: 0 auto;
+    padding-left: 30%;
+    padding-top: 10%;
+}
 
-a{
+a {
     text-decoration: none;
+    text-align: center;
+    line-height: 1.5em;
     color: #000;
+    display: table-cell;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
 }
 
-a:hover{
-    color: #b1b1b1;
+a:hover {
+    color: #c4c4c4;
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
 }
 
-li{
-    list-style-type: none;
-}
-
-#photo{
+#photo {
     margin-left: 20%;
 }
 
-img{
+img {
     width: 100%;
 }
 
-.one{
-    background: #dde4e5;
+.one {
+    background: /*#d8e5e3*/#dee7e8/*#c6d4d6*/;
     width: 30%;
-    margin: 20px;
-    padding: 20px;
-    padding-bottom: 50px;
-    margin-left: 100px;
+    margin: 5%;
+    padding: 2%;
+    padding-bottom: 5%;
+    margin-left: 10%;
     float: left;
     opacity: 0.9;
 }
 
-.two{
-    background: #dde4e5;
+.two {
+    background: #dee7e8;
     width: 30%;
-    margin: 20px;
-    padding: 20px;
-    padding-bottom: 50px;
-    padding-top: 10px;
-    margin-right: 110px;
+    margin: 5%;
+    padding: 2%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    margin-right: 5%;
     opacity: 0.9;
     float: right;
+}
+
+#b {
+    width: 50px;
+    height: 50px;
+    right: 3%;
+    bottom: 3%;
+    transition: 0.3s;
+    text-decoration: none;
+    position: fixed;
+    margin-left: auto;
+    font-size: 40px;
+}
+
+.c {
+    top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+    width: 50px;
+    height: 50px;
 }

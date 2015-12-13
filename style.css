@@ -7,10 +7,10 @@
 
 @font-face {
     font-family: 'kokugl';
-    src: url('font_1_kokugl_1.15_rls.eot');
-    src: url('font_1_kokugl_1.15_rls.eot?#iefix') format('embedded-opentype'),
+    src: url('font_1_kokugl_1.15_rls.eot') format('embedded-opentype'),
+        /*url('font_1_kokugl_1.15_rls.eot?#iefix') format('embedded-opentype'),*/
          url('font_1_kokugl_1.15_rls.woff') format('woff'),
-         url('font_1_kokugl_1.15_rls.ttf') format('truetype'),
+         url('font_1_kokugl_1.15_rls.ttf') format('truetype');
          /*url('fontname.svg#fontset') format('svg');*/
     font-weight: normal;
     font-style: normal;
@@ -24,7 +24,8 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Forum', cursive;
+    /*font-family: 'Forum', cursive;*/
+    font-family: 'kokugl';
 }
 
 
@@ -84,6 +85,7 @@ p {
 
 img {
     width: 100%;
+    margin-bottom: 3s%;
 }
 
 .one {

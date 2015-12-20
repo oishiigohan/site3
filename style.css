@@ -7,10 +7,10 @@
 
 @font-face {
     font-family: 'kokugl';
-    src: url('font_1_kokugl_1.15_rls.eot') format('embedded-opentype'),
-        url('font_1_kokugl_1.15_rls.eot?#iefix') format('embedded-opentype'),
-         url('font_1_kokugl_1.15_rls.woff') format('woff'),
-         url('font_1_kokugl_1.15_rls.ttf') format('truetype');
+    src: url('./font/font_1_kokugl_1.15_rls.eot') format('embedded-opentype'),
+        url('./font/font_1_kokugl_1.15_rls.eot?#iefix') format('embedded-opentype'),
+         url('./font/font_1_kokugl_1.15_rls.woff') format('woff'),
+         url('./font/font_1_kokugl_1.15_rls.ttf') format('truetype');
          /*url('fontname.svg#fontset') format('svg');*/
     font-weight: normal;
     font-style: normal;

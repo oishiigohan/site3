@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +6,19 @@
 
 @font-face {
     font-family: 'kokugl';
-    src: url('./font/font_1_kokugl_1.15_rls.eot') format('embedded-opentype'),
-        url('./font/font_1_kokugl_1.15_rls.eot?#iefix') format('embedded-opentype'),
-         url('./font/font_1_kokugl_1.15_rls.woff') format('woff'),
-         url('./font/font_1_kokugl_1.15_rls.ttf') format('truetype');
-         /*url('fontname.svg#fontset') format('svg');*/
+    src: url('./font/font_1_kokugl_1.15_rls.eot') format('embedded-opentype'), url('./font/font_1_kokugl_1.15_rls.eot?#iefix') format('embedded-opentype'), url('./font/font_1_kokugl_1.15_rls.woff') format('woff'), url('./font/font_1_kokugl_1.15_rls.ttf') format('truetype');
+    /*url('fontname.svg#fontset') format('svg');*/
     font-weight: normal;
     font-style: normal;
+}
+
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px)
+{
+    body {
+        background-attachment: none;
+    }
 }
 
 body {
@@ -28,19 +33,19 @@ body {
     font-family: 'Forum', cursive;
     /*font-family: 'kokugl';*/
 }
-
-#top{
-position: fixed;
-    top: 50%;
+/*
+#top {
+    position: fixed;
+    top: 0%;
     left: 50%;
     background-image: url(./photo/bg00.jpeg);
     background-repeat: no-repeat;
     width: 2048px;
     height: 1536px;
-    margin-top: -1024px;
+    margin-top: -824px;
     margin-left: -768px;
 }
-
+*/
 
 #a {
     width: 10%;
@@ -90,7 +95,7 @@ a:hover {
     margin-left: 20%;
 }
 
-h4{
+h4 {
     color: #000;
     font-weight: 100;
 }
@@ -107,7 +112,7 @@ img {
 
 .one {
     background: /*#d8e5e3*/
-    #dee7e8/*#c6d4d6*/  
+    #dee7e8/*#c6d4d6*/
     ;
     width: 30%;
     margin: 5%;

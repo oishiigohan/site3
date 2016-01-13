@@ -36,7 +36,7 @@ position: fixed;
     background-image: url(./photo/bg00.jpeg);
     background-repeat: no-repeat;
     width: 2048px;
-    height: 1536px;
+    height: auto;
     margin-top: -1024px;
     margin-left: -768px;
 }

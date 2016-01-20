@@ -6,18 +6,25 @@
     <title>photo</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
-    
-    <script src="./js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript">
-        $(function(){
-	$('#b').on('click', function(e){
-		e.preventDefault();
-		$('html, body').stop().animate({
-			scrollTop: 0
-		},800);
-	});
-});
 
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#b').on('click', function (e) {
+                e.preventDefault();
+                $('html, body').stop().animate({
+                    scrollTop: 0
+                }, 800);
+            });
+        });
+
+        $(function () {
+            $('img.one img.two').lazyload({
+                    threshold: 200, // 200pxの距離まで近づいたら表示する
+                    effect: "fadeIn", // じわじわっと表示させる
+                });
+        });
     </script>
 
 </head>
@@ -32,7 +39,7 @@
         <div class="link">
             <a href="https://twitter.com/fy1125">Twitter</a>
             <br>
-            <a href="https://www.instagram.com/fu_1125/">instaglam</a>
+            <a href="https://www.instagram.com/fu_1125/">instagram</a>
             <br>
             <a href="https://www.facebook.com/fuukayo">facebook</a>
         </div>
@@ -199,26 +206,26 @@
             <h4>sheep</h4>
             <p>201?/??/??</p>
         </div>
-        
+
         <div class="one">
             <img src="./photo/odaiba.png" alt="">
             <h4>aaa</h4>
             <p>2016/01/</p>
         </div>
-        
+
         <div class="two">
-           <img src="./photo/namiki.png" alt="">
+            <img src="./photo/namiki.png" alt="">
             <h4>aaa</h4>
             <p>2016/</p>
         </div>
-        
+
         <div class="one">
             <img src="./photo/back.png" alt="">
             <h4>aa</h4>
             <p>2015/</p>
         </div>
-        
-        
+
+
 
     </div>
 

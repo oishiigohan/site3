@@ -16,7 +16,6 @@
 body {
     width: 100%;
     margin: 0;
-    background-image: url(./photo/bg00.jpeg);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -135,8 +134,8 @@ a img{
 }
 
 a:hover img{
-  -webkit-filter: blur(1px);
-	filter: blur(1px);
+  -webkit-filter: blur(1.5px);
+	filter: blur(1.5px);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
@@ -162,9 +161,18 @@ a:hover img{
     margin: auto;
     width: 50px;
     height: 50px;
+    display: table-cell;
     text-decoration: none;
     -webkit-transition: all 1.0s ease;
     -moz-transition: all 1.0s ease;
     -o-transition: all 1.0s ease;
     transition: all 1.0s ease;
+}
+
+.c a:hover {
+    color: #c4c4c4;
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
 }
